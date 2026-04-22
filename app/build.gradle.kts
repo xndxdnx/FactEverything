@@ -46,6 +46,7 @@ android {
 dependencies {
 
     implementation("com.google.dagger:hilt-android:2.55")
+    implementation(libs.androidx.compose.remote.creation.core)
     kapt("com.google.dagger:hilt-android-compiler:2.55")
     implementation("androidx.hilt:hilt-navigation-compose:1.1.0")
 
