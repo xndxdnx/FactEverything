@@ -9,8 +9,6 @@ import javax.inject.Singleton
 
 @Singleton
 class FavoritesManager @Inject constructor() {
-
-
     private val _favorites = MutableStateFlow<Set<Int>>(emptySet())
 
     val favorites: StateFlow<Set<Int>> = _favorites.asStateFlow()
@@ -26,5 +24,4 @@ class FavoritesManager @Inject constructor() {
     fun isFavorite(factId: Int): Boolean{
         return _favorites.value.contains(factId)
     }
-
 }
