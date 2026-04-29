@@ -1,6 +1,6 @@
 package com.example.facteverything.presentation.components
 
-import android.R
+
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -25,8 +25,6 @@ import androidx.compose.ui.unit.dp
 import com.example.facteverything.model.Category
 import com.example.facteverything.model.Fact
 import com.example.facteverything.ui.theme.FactEverythingTheme
-
-
 @Composable
 fun FactCard(
     fact: Fact,
